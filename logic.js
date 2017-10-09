@@ -17,7 +17,7 @@ $(function () {
 
         if (q != "undefined" && q != "") {
                 $("#search_box").attr("value",q);
-                var uri = "http://localhost:3000/mongo?q="  + qGet;
+                var uri = "http://cardsengine.herokuapp.com/mongo?q="  + qGet;
                 sendAjax(uri);
         }
 
