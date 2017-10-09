@@ -1,0 +1,33 @@
+{
+  "name": "cardsengine",
+  "version": "1.0.0",
+  "description": "search engine with embedded elements",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tarekzrl/cardsengine.git"
+  },
+  "keywords": [
+    "search engine",
+    "embeds",
+    "oembed",
+    "cards",
+    "iframes"
+  ],
+  "author": "tarekzrl",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/tarekzrl/cardsengine/issues"
+  },
+  "homepage": "https://github.com/tarekzrl/cardsengine#readme",
+  "dependencies": {
+    "express": "^4.16.1",
+    "mongodb": "^2.2.31",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {}
+}
